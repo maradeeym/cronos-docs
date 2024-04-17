@@ -1,6 +1,6 @@
-# KSYNC
+# Syncing a Node Using KYVE's KSYNC
 
-This sections covers how to perform a genesis-sync up to live height and how to state-sync to any historical height for Cronos Mainnet with KSYNC. In summary KSYNC is a tool developed by [KYVE](https://www.kyve.network/) which is capable of syncing blocks and state-sync snapshots from the decentralized KYVE data lake directly into Cosmos blockchain nodes. In the case of Cronos all blocks and state-sync snapshots in a 10,000 interval have been validated in a decentralized way and permantenly archived to [Arweave](https://www.arweave.org/), a decentralized permanent storage solution. You can find full documentation on the tool [here](https://docs.kyve.network/validators/ksync).
+This sections covers how to perform a genesis-sync up to live height and how to state-sync to historical heights for Cronos Mainnet with KSYNC. In summary KSYNC is a tool developed by [KYVE](https://www.kyve.network/) which is capable of syncing blocks and state-sync snapshots from the decentralized KYVE data lake directly into Cosmos blockchain nodes. For Cronos, KYVE has validated all historical blocks and state-sync snapshots (in a 10,000 interval) in a decentralized way and permanently archived them to [Arweave](https://arweave.org/), a decentralized storage solution. KSYNC can then pull down this verified data and apply them against the Cronos app, you can find full documentation on the tool [here](https://docs.kyve.network/validators/ksync).
 
 #### Installation
 
